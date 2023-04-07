@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:nav-bar-angular": "ng build nav-bar-angular --prod",
-    "serve:single-spa:nav-bar-angular": "ng s --project nav-bar-angular --disable-host-check --port 4205 --live-reload false"
+    "serve": "ng s --project nav-bar-angular --disable-host-check --port 4205 --live-reload false"
   },
   "private": true,
   "dependencies": {
