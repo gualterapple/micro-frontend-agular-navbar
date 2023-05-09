@@ -1,5 +1,5 @@
 {
-  "name": "nav-bar-angular",
+  "name": "@gualter/nav-bar-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:single-spa:nav-bar-angular": "ng build nav-bar-angular --prod",
-    "serve": "ng s --project nav-bar-angular --disable-host-check --port 4205 --live-reload false"
+    "serve": "ng s --project @gualter/nav-bar-angular --disable-host-check --port 4205 --live-reload false"
   },
   "private": true,
   "dependencies": {

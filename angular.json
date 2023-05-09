@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nav-bar-angular": {
+    "@gualter/nav-bar-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -36,10 +36,10 @@
             "scripts": [],
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
-              "libraryName": "nav-bar-angular",
+              "libraryName": "@gualter/nav-bar-angular",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:4205/"
+            "deployUrl": "http://localhost:7002/"
           },
           "configurations": {
             "production": {
@@ -79,10 +79,10 @@
           "builder": "@angular-builders/custom-webpack:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "nav-bar-angular:build:production"
+              "browserTarget": "@gualter/nav-bar-angular:build:production"
             },
             "development": {
-              "browserTarget": "nav-bar-angular:build:development"
+              "browserTarget": "@gualter/nav-bar-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nav-bar-angular:build"
+            "browserTarget": "@gualter/nav-bar-angular:build"
           }
         },
         "test": {
@@ -114,5 +114,5 @@
       }
     }
   },
-  "defaultProject": "nav-bar-angular"
+  "defaultProject": "@gualter/nav-bar-angular"
 }
